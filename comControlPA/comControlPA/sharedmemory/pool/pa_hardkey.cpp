@@ -1,0 +1,47 @@
+#include "pa_hardkey.h"
+
+SharedMemory::Pool SharedMemoryPool_PA_Hardkey{ "PA_Hardkey", 65535 };
+
+SharedMemory::AtomicStruct<PA_Hardkey> PA_LeftSteerWhlTopKey(SharedMemoryPool_PA_Hardkey,			"PA_LeftSteerWhlTopKey",	     { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_LeftSteerWhlBottomKey(SharedMemoryPool_PA_Hardkey,		"PA_LeftSteerWhlBottomKey",	     { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_LeftSteerWhlRiKey(SharedMemoryPool_PA_Hardkey,			"PA_LeftSteerWhlRiKey",		     { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_LeftSteerWhlLeKey(SharedMemoryPool_PA_Hardkey,			"PA_LeftSteerWhlLeKey",		     { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_LeftSteerWhlConfirmKey(SharedMemoryPool_PA_Hardkey,		"PA_LeftSteerWhlConfirmKey",     { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_LeftSteerWhlTiGapKey(SharedMemoryPool_PA_Hardkey,			"PA_LeftSteerWhlTiGapKey",	     { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_LeftSteerWhlViewKey(SharedMemoryPool_PA_Hardkey,			"PA_LeftSteerWhlViewKey",	     { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_LeftSteerWhlResuKey(SharedMemoryPool_PA_Hardkey,			"PA_LeftSteerWhlResuKey",	     { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_LeftSteerWhlCancleKey(SharedMemoryPool_PA_Hardkey,		"PA_LeftSteerWhlCancleKey",	     { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_LeftSteerWhADASKey(SharedMemoryPool_PA_Hardkey,			"PA_LeftSteerWhADASKey",	     { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_LeftSteerWhlTiGapCtrlr(SharedMemoryPool_PA_Hardkey,       "PA_LeftSteerWhlTiGapCtrlr",     { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_LeftSteerWhlAPAKey(SharedMemoryPool_PA_Hardkey,       	"PA_LeftSteerWhlAPAKey",     	 { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_LeftSteerWhlHozlSwp(SharedMemoryPool_PA_Hardkey,         	"PA_LeftSteerWhlHozlSwp",        { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_LeftSteerWhlVertSwp(SharedMemoryPool_PA_Hardkey,         	"PA_LeftSteerWhlVertSwp",        { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_RightSteerWhlTopKey(SharedMemoryPool_PA_Hardkey,          "PA_RightSteerWhlTopKey",        { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_RightSteerWhlBottomKey(SharedMemoryPool_PA_Hardkey,       "PA_RightSteerWhlBottomKey",     { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_RightSteerWhlLeKey(SharedMemoryPool_PA_Hardkey,           "PA_RightSteerWhlLeKey",         { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_RightSteerWhlRiKey(SharedMemoryPool_PA_Hardkey,           "PA_RightSteerWhlRiKey",         { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_RightSteerWhlRollKey(SharedMemoryPool_PA_Hardkey,         "PA_RightSteerWhlRollKey",       { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_RightSteerWhlConfirmKey(SharedMemoryPool_PA_Hardkey,      "PA_RightSteerWhlConfirmKey",    { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_RightSteerWhlVRKey(SharedMemoryPool_PA_Hardkey,           "PA_RightSteerWhlVRKey",         { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_RightSteerWhlMenuKey(SharedMemoryPool_PA_Hardkey,         "PA_RightSteerWhlMenuKey",       { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_RightSteerWhlCustomDefdKey(SharedMemoryPool_PA_Hardkey,   "PA_RightSteerWhlCustomDefdKey", { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_RightSteerWhlMuteKey(SharedMemoryPool_PA_Hardkey,         "PA_RightSteerWhlMuteKey",       { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_RightSteerWhlVertMove(SharedMemoryPool_PA_Hardkey,        "PA_RightSteerWhlVertMove",      { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_RightSteerWhlHozlSwp(SharedMemoryPool_PA_Hardkey,         "PA_RightSteerWhlHozlSwp",       { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_RightSteerWhlVertSwp(SharedMemoryPool_PA_Hardkey,         "PA_RightSteerWhlVertSwp",       { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_RightSteerWhlTripKey(SharedMemoryPool_PA_Hardkey,         "PA_RightSteerWhlTripKey",       { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_RightSteerWhlWeChatKey(SharedMemoryPool_PA_Hardkey,       "PA_RightSteerWhlWeChatKey",     { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_SngTripKey(SharedMemoryPool_PA_Hardkey,         			"PA_SngTripKey",       			 { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_DrvrModPadl(SharedMemoryPool_PA_Hardkey,         			"PA_DrvrModPadl",       		 { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Hardkey> PA_CustomDefKey(SharedMemoryPool_PA_Hardkey,         		"PA_CustomDefKey",       		 { 0, 0, 0 });
+SharedMemory::AtomicStruct<PA_Vibration> PA_HMI_VibrationFbToSwtp(SharedMemoryPool_PA_Hardkey,      "PA_HMI_VibrationFbToSwtp",      { 0, 0 });
+SharedMemory::AtomicNumber<unsigned char> PA_RiTopReq(SharedMemoryPool_PA_Hardkey,       			"PA_RiTopReq",     	 			 { 0 });
+SharedMemory::AtomicNumber<unsigned char> PA_RiDownReq(SharedMemoryPool_PA_Hardkey,       			"PA_RiDownReq",     	 		 { 0 });
+SharedMemory::AtomicNumber<unsigned char> PA_RiLeftReq(SharedMemoryPool_PA_Hardkey,       			"PA_RiLeftReq",     	 		 { 0 });
+SharedMemory::AtomicNumber<unsigned char> PA_RiRightReq(SharedMemoryPool_PA_Hardkey,       			"PA_RiRightReq",     	 		 { 0 });
+SharedMemory::AtomicNumber<unsigned char> PA_BtnConfiReq(SharedMemoryPool_PA_Hardkey,       		"PA_BtnConfiReq",     	 		 { 0 });
+SharedMemory::AtomicNumber<unsigned char> PA_SteerAdjSwtUpSts(SharedMemoryPool_PA_Hardkey,       	"PA_SteerAdjSwtUpSts",     	 	 { 0 });
+SharedMemory::AtomicNumber<unsigned char> PA_SteerAdjSwtDwnSts(SharedMemoryPool_PA_Hardkey,       	"PA_SteerAdjSwtDwnSts",     	 { 0 });
+SharedMemory::AtomicNumber<unsigned char> PA_SteerAdjSwtFwdSts(SharedMemoryPool_PA_Hardkey,       	"PA_SteerAdjSwtFwdSts",     	 { 0 });
+SharedMemory::AtomicNumber<unsigned char> PA_SteerAdjSwtBackSts(SharedMemoryPool_PA_Hardkey,       	"PA_SteerAdjSwtBackSts",     	 { 0 });
+SharedMemory::AtomicNumber<unsigned char> PA_SteerPosnAdjmtCtrl(SharedMemoryPool_PA_Hardkey,       	"PA_SteerPosnAdjmtCtrl",     	 { 0 });

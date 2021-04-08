@@ -1,0 +1,34 @@
+﻿  pa_trip3Dlg.cpp
+  pa_trip2Dlg.cpp
+  pa_trip1Dlg.cpp
+  pa_trip0Dlg.cpp
+  pa_telltale2Dlg.cpp
+  pa_telltale1Dlg.cpp
+  pa_telltale0Dlg.cpp
+  pa_rearmirror0Dlg.cpp
+  pa_phone0Dlg.cpp
+  pa_notification0Dlg.cpp
+  pa_navi0Dlg.cpp
+  pa_media0Dlg.cpp
+  pa_hardkey1Dlg.cpp
+  pa_hardkey0Dlg.cpp
+  pa_gauge0Dlg.cpp
+  pa_dvr0Dlg.cpp
+  pa_domain0Dlg.cpp
+  pa_climate0Dlg.cpp
+  pa_chime0Dlg.cpp
+  pa_adas2Dlg.cpp
+  Generating Code...
+  Compiling...
+  pa_adas1Dlg.cpp
+  pa_adas0Dlg.cpp
+  comControlPADlg.cpp
+c:\01_work\mfcws\comcontrolpa\comcontrolpa\dlg\comcontrolpadlg.cpp(331): warning C4996: 'GetVersionExW': was declared deprecated
+  c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(442): note: see declaration of 'GetVersionExW'
+c:\01_work\mfcws\comcontrolpa\comcontrolpa\dlg\comcontrolpadlg.cpp(339): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  comControlPA.cpp
+  comControlPA.vcxproj -> C:\01_work\MFCWS\comControlPA\Debug\comControlPA.exe
+  comControlPA.vcxproj -> C:\01_work\MFCWS\comControlPA\Debug\comControlPA.pdb (Partial PDB)
